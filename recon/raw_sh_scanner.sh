@@ -29,7 +29,7 @@ for port in {1..65535}; do
 # For each IP address, connect to all 65,535 ports, discard errors and indicate
 # which port is open for which IP
 
-		timeout .1 bash -c "echo >/dev/tcp/$ip/$port" 2>/dev/null &&
+		timeout 1 bash -c "echo >/dev/tcp/$ip/$port" 2>/dev/null &&
         echo "port $port is open for $ip"
 	done	
 done
