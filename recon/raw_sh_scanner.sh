@@ -14,7 +14,7 @@ IP_list=$1
 
 if [ $# -ne 1 ]
 	then
-		echo "Not enough arguments supplied. Usage: <IP list>" && exit 1
+		echo "Not enough arguments supplied. Usage: ./raw_sh_scanner.sh <IP list>" && exit 1
 fi
 
 #Creating a variable storing the value of the IP_list variable (the file path)
