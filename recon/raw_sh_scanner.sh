@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/sh 
 
 ################### DESCRIPTION #########################################
 # Raw bash port scanner leveraging /dev/tcp, created by Mattia Campagnano
