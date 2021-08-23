@@ -29,7 +29,7 @@ for port in range(1,65535):
 
 # Create a network socket
               s= socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-              socket.setdefaulttimeout(0.5)
+              socket.setdefaulttimeout(1)
               print_lock = threading.Lock()
 
 # Try connecting to each target IPs on ports 1 thru 65,535
