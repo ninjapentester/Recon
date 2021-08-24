@@ -47,7 +47,7 @@ do
         then
                 echo "$ip runs Windows" >> "$output"
 	
-	    elif [[ "$ttl" -gt 250 ]] && [[ "$ttl" -le 255 ]]
+	elif [[ "$ttl" -gt 250 ]] && [[ "$ttl" -le 255 ]]
         then
         
                 echo "$ip runs Cisco" >> "$output"
