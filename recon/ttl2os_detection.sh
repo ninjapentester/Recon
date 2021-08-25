@@ -4,6 +4,11 @@ echo "############################# OS DETECTION SCRIPT ########################
 
 echo "TTL-based OS detection bash script created by Mattia Campagnano (The S@vvy_G33k)"
 
+echo "################################################################################"
+
+echo
+
+echo "Check output file for OS guesses"
 echo
 
 # TTL-based OS detection bash script created by Mattia Campagnano (The S@vvy_G33k) on Tue 24 Aug 2021 05:17:55 PM EDT
@@ -21,6 +26,8 @@ if [ $# -ne 2 ]
 fi
 x=$(cat $file)
 
+
+
 #Loop through IP addresses
 
 for ip in $(echo $x)
@@ -29,7 +36,9 @@ do
 # Extract TTL value from ping command output and store it to a variable.
 
 
-        ttl=$(ping -c1 $ip | grep "ttl=" | awk -F":" '{print $2}' | awk '{print $2}' | sed 's/ttl=/ /g')
+        ttl=$(ping -c1 $ip | grep "ttl=" | awk -F":" '{print $2}' | awk '{print $2}' | sed 's/ttl=/ /g')               
+               
+        echo "$ip ttl value is:$ttl"
 
 # Echo statement for debugging purposes
 
