@@ -17,7 +17,7 @@ output=$2
 
 if [ $# -ne 2 ]
 	then
-		echo "Not enough arguments supplied. Usage: ./os_ttl_detection.sh <IP list> <output file>" && exit 1
+		echo "Not enough arguments supplied. Usage: ./ttl2os_detection.sh <IP list> <output file>" && exit 1
 fi
 x=$(cat $file)
 
@@ -50,9 +50,7 @@ do
 	elif [[ "$ttl" -gt 250 ]] && [[ "$ttl" -le 255 ]]
         then
         
-                echo "$ip runs Cisco" >> "$output"
-        
+                echo "$ip runs Cisco" >> "$output"       
      
-
         fi
 done
