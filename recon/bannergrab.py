@@ -40,7 +40,7 @@ def main():
                     #print(ip, port)
                     banner = retBanner(ip, port)
 
-# Grab the banner and display it alomng with IP address and port   
+# Grab the banner and display it along with IP address and port   
 
                     print(ip,port)
                     print(banner)
