@@ -9,9 +9,8 @@
 	
 	• Java Programming Basic https://www.udacity.com/course/java-programming-basics--ud282
 	• https://stackskills.com/
-	
 
-    • https://www.udemy.com/course/powershell-for-pentesters/
+    	• https://www.udemy.com/course/powershell-for-pentesters/
 	
 
 
