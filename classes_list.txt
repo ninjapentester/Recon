@@ -5,12 +5,14 @@
 	• https://academy.tcm-sec.com/courses/1557555/lectures/35730967 
 	• XSS Rat The OWASP top 10 demystified 
 	• Udemy Enrolled Courses: https://www.udemy.com/home/my-courses/learning/
-	• TCM ZERO TO HERO: Zero to Hero: A Practical Network Penetration Testing Course
+	• TCM ZERO TO HERO: Zero to Hero: A Practical Network Penetration Testing Course: https://www.youtube.com/playlist?list=PLLKT__MCUeiwBa7d7F_vN1GUwz_2TmVQj
 	
 	• Java Programming Basic https://www.udacity.com/course/java-programming-basics--ud282
 	• https://stackskills.com/
 
-    	• https://www.udemy.com/course/powershell-for-pentesters/
+    • https://www.udemy.com/course/powershell-for-pentesters/
+     
+    • https://www.youtube.com/watch?v=Jvv7O-Wy8Jo   
 	
-
+    
 
