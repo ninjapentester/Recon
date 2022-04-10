@@ -8,7 +8,6 @@ echo "##########################################################################
 
 echo
 
-echo "Check output file for OS guesses"
 echo
 
 # TTL-based OS detection bash script created by Mattia Campagnano (The S@vvy_G33k) on Tue 24 Aug 2021 05:17:55 PM EDT
@@ -62,4 +61,7 @@ do
                 echo "$ip runs Cisco" >> "$output"       
      
         fi
+
 done
+
+cat $output
