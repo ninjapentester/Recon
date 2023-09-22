@@ -1,3 +1,7 @@
+'''
+Thanks a ton to my buddy Aqeeb Hussain for his help with improving my original code
+'''
+
 import subprocess
 import sys
 import json
@@ -6,7 +10,7 @@ import argparse
 
 def usage():
 	if len(sys.argv) != 2:
-		raise Exception("Usage: python3 domshot.py <domain>")
+		print("Usage: python3 domshot.py <domain>")
 
 def get_perms():
 	if os.geteuid() != 0:
